@@ -11,10 +11,6 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Machine Learning
-*.pkl
-*.joblib
-
 # Environment variables
 .env
 
@@ -28,3 +24,10 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+# Testing / cache
+.pytest_cache/
+.coverage
+
+# Keep trained ML models
+# *.pkl is intentionally NOT ignored
