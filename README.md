@@ -81,7 +81,7 @@ The priority engine combines the predicted severity and category to calculate a 
 Priority levels are:
 
 | Score | Priority Level |
-|---:|---|
+|---|---|
 | 0–39 | Low |
 | 40–64 | Medium |
 | 65–84 | High |
@@ -155,6 +155,9 @@ Routing         Complaints
  └───────┬────────┘
          ↓
     Final Analysis
+```
+
+---
 
 ## 5. Technology Stack
 
@@ -558,4 +561,3 @@ Developed as an academic project for:
 GitHub:
 
 https://github.com/shreem-bhargava36/CampusFix-AI
-
